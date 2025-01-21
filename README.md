@@ -14,6 +14,9 @@ Si tratta di una semplice applicazione con 3 diverse funzionalità:
 - Resettare il counter
 - Incremento il valore di +1
 
+# Prova l'app "Counter-GN" qui:
+# 🔗https://britney-gio.github.io/counter-GN/
+
 
 ## Screenshots
 
