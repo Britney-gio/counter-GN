@@ -38,7 +38,7 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 a {
@@ -85,11 +85,23 @@ button:focus {
     .plus , .minus, .reset {
         width: 80px;
         height: 80px;
-        border-radius: 50%;
         margin: 0px 10px 0px 10px;
         font-size: 1.8rem;
     }
   }
+
+  @media (max-height: 830px) {
+.ris {
+        font-size: 10rem;
+        display: none;
+        margin: 2px 0px 2px 0px;
+    }
+
+    .header {
+        font-size: 1.7rem;
+        text-align: center; 
+    }
+}
 
 
 
