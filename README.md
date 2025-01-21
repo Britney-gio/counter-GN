@@ -21,8 +21,9 @@ Si tratta di una semplice applicazione con 3 diverse funzionalità:
 ![App Screenshot](/img/pag2.jpg)
 
 
-
+# Bye bye da Giorgia! 👋
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://britney-gio.github.io/)
 ![Logo](/img/gn.jpg)
 
 
-# Bye bye da Giorgia! 👋
+
