@@ -54,7 +54,8 @@ button {
     padding: 8px;
     font-weight: 580;
     border: none;
-    cursor: pointer;       
+    cursor: pointer;    
+    outline: none;   
 }
 
 button:focus {
@@ -78,7 +79,8 @@ button:focus {
     height: 120px;
     border-radius: 50%;
     margin: 0px 20px 0px 20px;
-    font-size: 1.8rem;
+    font-size: 1.8rem;        
+    outline: none;  
 }
 
 @media (max-width: 425px) {
@@ -100,6 +102,10 @@ button:focus {
     .header {
         font-size: 1.7rem;
         text-align: center; 
+    }
+
+    footer {
+        display: none;
     }
 }
 
