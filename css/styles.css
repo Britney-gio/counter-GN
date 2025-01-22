@@ -30,6 +30,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 footer {
@@ -54,8 +55,7 @@ button {
     padding: 8px;
     font-weight: 580;
     border: none;
-    cursor: pointer;    
-    outline: none;   
+    cursor: pointer;
 }
 
 button:focus {
@@ -90,7 +90,7 @@ button:focus {
         margin: 0px 10px 0px 10px;
         font-size: 1.8rem;
     }
-  }
+}
 
 @media (max-height: 830px) {
     body {
