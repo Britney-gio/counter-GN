@@ -83,7 +83,7 @@ button:focus {
     outline: none;  
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     .plus , .minus, .reset {
         width: 80px;
         height: 80px;
@@ -92,18 +92,32 @@ button:focus {
     }
   }
 
-  @media (max-height: 830px) {
-.ris {
-        font-size: 10rem;
+@media (max-height: 830px) {
+    body {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .ris {
+        font-size: 8rem;
         display: none;
         margin: 2px 0px 2px 0px;
     }
 
     .header {
-        font-size: 1.7rem;
+        font-size: 1rem;
         text-align: center; 
     }
 
+    .plus , .minus, .reset {
+        width: 80px;
+        height: 80px;
+        margin: 0px 10px 0px 10px;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-height: 500px) {
     footer {
         display: none;
     }
