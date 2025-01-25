@@ -1,6 +1,7 @@
 const btnStart = document.querySelector(".start");
 const text = document.querySelector(".text-tx");
 const myApp = document.querySelector(".my-app");
+let screen;
 
  
 // CREO DINAMICAMENTE ELEMENTI : RISULTATO DEL COUNTER ris E I BUTTON btnMinus btnReset btnPlus CHE INCREMENTERANNO / DECREMENTARANNO / RESETTERANNO IL COUNTER 
@@ -40,17 +41,17 @@ btnStart.addEventListener('click', () => {
 
 //FUNZIONE CHE INCREMENTA ris DI 1 AL CLICK DI btnPlus
 btnPlus.addEventListener('click', () => {
-        ris.textContent++;
+        screen=ris.textContent++;
 });
 
 //FUNZIONE CHE DESCREMENTA ris DI 1 AL CLICK DI btnPlus
 btnMinus.addEventListener('click', () => {
-    ris.textContent--;
+    screen=ris.textContent--;
 });
 
 //FUNZIONE CHE AZZERA ris
 btnReset.addEventListener('click', () => {
-    ris.textContent=0;
+    screen=ris.textContent=0;
 });
 
 
