@@ -55,6 +55,3 @@ btnReset.addEventListener('click', () => {
     counter=0;
     ris.innerHTML=counter;
 });
-
-
-
