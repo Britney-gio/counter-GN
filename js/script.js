@@ -1,6 +1,7 @@
 const btnStart = document.querySelector(".start");
 const text = document.querySelector(".text-tx");
 const myApp = document.querySelector(".my-app");
+let counter = 0;
  
 // CREO DINAMICAMENTE ELEMENTI : RISULTATO DEL COUNTER ris E I BUTTON btnMinus btnReset btnPlus CHE INCREMENTERANNO / DECREMENTARANNO / RESETTERANNO IL COUNTER 
 let ris = document.createElement("p");
